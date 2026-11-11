@@ -1,0 +1,48 @@
+[0.070s] Invoking command in '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description
+[0.575s] -- The C compiler identification is GNU 13.3.0
+[1.174s] -- The CXX compiler identification is GNU 13.3.0
+[1.591s] -- Detecting C compiler ABI info
+[2.323s] -- Detecting C compiler ABI info - done
+[2.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.406s] -- Detecting C compile features
+[2.409s] -- Detecting C compile features - done
+[2.504s] -- Detecting CXX compiler ABI info
+[3.238s] -- Detecting CXX compiler ABI info - done
+[3.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.319s] -- Detecting CXX compile features
+[3.321s] -- Detecting CXX compile features - done
+[3.392s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.621s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.320s] -- Configuring done (5.2s)
+[5.606s] -- Generating done (0.2s)
+[5.745s] -- Build files have been written to: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description
+[5.748s] Invoked command in '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description
+[5.758s] Invoking command in '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description -- -j12 -l12
+[5.877s] Invoked command in '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description -- -j12 -l12
+[5.909s] Invoking command in '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description
+[5.924s] -- Install configuration: ""
+[5.930s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf
+[5.964s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[6.040s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[6.135s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[6.214s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//launch
+[6.247s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[6.322s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[6.388s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//rviz
+[6.418s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[6.512s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[6.613s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[6.700s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[6.759s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[6.820s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/path.sh
+[6.888s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[6.953s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.bash
+[7.009s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.sh
+[7.065s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[7.122s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[7.179s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/package.dsv
+[7.269s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[7.374s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[7.440s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[7.511s] -- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/package.xml
+[7.566s] Invoked command in '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description

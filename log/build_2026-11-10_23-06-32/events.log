@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.001305] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.021774] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.054223] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/src/my_robot_description', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description'], 'cwd': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thiago06', 'ROS_APT_SOURCE_VERSION': '1.3.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thiago06', 'OLDPWD': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thiago06', 'NAME': 'DrAragorn', 'WSL_INTEROP': '/run/WSL/648_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/thiag/miniconda3/Library/bin:/mnt/c/Users/thiag/miniconda3/Scripts:/mnt/c/Users/thiag/miniconda3:/mnt/c/Program Files/WSL/:/mnt/c/Users/thiag/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/thiag/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/thiag/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.098440] (-) TimerEvent: {}
+[0.199476] (-) TimerEvent: {}
+[0.300257] (-) TimerEvent: {}
+[0.401122] (-) TimerEvent: {}
+[0.501875] (-) TimerEvent: {}
+[0.575280] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.601966] (-) TimerEvent: {}
+[0.702700] (-) TimerEvent: {}
+[0.803520] (-) TimerEvent: {}
+[0.904233] (-) TimerEvent: {}
+[1.004982] (-) TimerEvent: {}
+[1.106087] (-) TimerEvent: {}
+[1.174235] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.206170] (-) TimerEvent: {}
+[1.307246] (-) TimerEvent: {}
+[1.408417] (-) TimerEvent: {}
+[1.509233] (-) TimerEvent: {}
+[1.591951] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.609369] (-) TimerEvent: {}
+[1.710073] (-) TimerEvent: {}
+[1.811147] (-) TimerEvent: {}
+[1.911955] (-) TimerEvent: {}
+[2.012696] (-) TimerEvent: {}
+[2.113537] (-) TimerEvent: {}
+[2.214330] (-) TimerEvent: {}
+[2.315165] (-) TimerEvent: {}
+[2.323998] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.402751] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.407287] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.409265] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.415287] (-) TimerEvent: {}
+[2.504083] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.515397] (-) TimerEvent: {}
+[2.616436] (-) TimerEvent: {}
+[2.717209] (-) TimerEvent: {}
+[2.817993] (-) TimerEvent: {}
+[2.918935] (-) TimerEvent: {}
+[3.020254] (-) TimerEvent: {}
+[3.120998] (-) TimerEvent: {}
+[3.221748] (-) TimerEvent: {}
+[3.238594] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.317803] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.319780] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.321511] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.323530] (-) TimerEvent: {}
+[3.392022] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.423686] (-) TimerEvent: {}
+[3.524459] (-) TimerEvent: {}
+[3.617402] (my_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.624571] (-) TimerEvent: {}
+[3.725472] (-) TimerEvent: {}
+[3.826349] (-) TimerEvent: {}
+[3.927168] (-) TimerEvent: {}
+[4.027970] (-) TimerEvent: {}
+[4.128658] (-) TimerEvent: {}
+[4.229659] (-) TimerEvent: {}
+[4.330948] (-) TimerEvent: {}
+[4.432112] (-) TimerEvent: {}
+[4.533383] (-) TimerEvent: {}
+[4.634522] (-) TimerEvent: {}
+[4.736133] (-) TimerEvent: {}
+[4.837315] (-) TimerEvent: {}
+[4.938314] (-) TimerEvent: {}
+[5.039290] (-) TimerEvent: {}
+[5.140309] (-) TimerEvent: {}
+[5.241187] (-) TimerEvent: {}
+[5.320192] (my_robot_description) StdoutLine: {'line': b'-- Configuring done (5.2s)\n'}
+[5.341281] (-) TimerEvent: {}
+[5.442020] (-) TimerEvent: {}
+[5.542785] (-) TimerEvent: {}
+[5.606274] (my_robot_description) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[5.642963] (-) TimerEvent: {}
+[5.742971] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description\n'}
+[5.747239] (-) TimerEvent: {}
+[5.749068] (my_robot_description) CommandEnded: {'returncode': 0}
+[5.753952] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[5.758951] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', '--', '-j12', '-l12'], 'cwd': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thiago06', 'ROS_APT_SOURCE_VERSION': '1.3.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thiago06', 'OLDPWD': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thiago06', 'NAME': 'DrAragorn', 'WSL_INTEROP': '/run/WSL/648_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/thiag/miniconda3/Library/bin:/mnt/c/Users/thiag/miniconda3/Scripts:/mnt/c/Users/thiag/miniconda3:/mnt/c/Program Files/WSL/:/mnt/c/Users/thiag/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/thiag/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/thiag/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[5.847373] (-) TimerEvent: {}
+[5.877762] (my_robot_description) CommandEnded: {'returncode': 0}
+[5.894682] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[5.910041] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description'], 'cwd': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thiago06', 'ROS_APT_SOURCE_VERSION': '1.3.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thiago06', 'OLDPWD': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thiago06', 'NAME': 'DrAragorn', 'WSL_INTEROP': '/run/WSL/648_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/thiag/miniconda3/Library/bin:/mnt/c/Users/thiag/miniconda3/Scripts:/mnt/c/Users/thiag/miniconda3:/mnt/c/Program Files/WSL/:/mnt/c/Users/thiag/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/thiag/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/thiag/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/build/my_robot_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[5.924456] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.930401] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf\n'}
+[5.947488] (-) TimerEvent: {}
+[5.964497] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro\n'}
+[6.040527] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro\n'}
+[6.047612] (-) TimerEvent: {}
+[6.134830] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro\n'}
+[6.147798] (-) TimerEvent: {}
+[6.214455] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//launch\n'}
+[6.247605] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//launch/display.launch.py\n'}
+[6.249718] (-) TimerEvent: {}
+[6.322078] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//launch/display.launch.xml\n'}
+[6.349877] (-) TimerEvent: {}
+[6.388148] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//rviz\n'}
+[6.418207] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz\n'}
+[6.450030] (-) TimerEvent: {}
+[6.512284] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[6.550107] (-) TimerEvent: {}
+[6.613686] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[6.650195] (-) TimerEvent: {}
+[6.700026] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[6.750328] (-) TimerEvent: {}
+[6.759147] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[6.820243] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[6.850466] (-) TimerEvent: {}
+[6.888565] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[6.950547] (-) TimerEvent: {}
+[6.953352] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[7.009627] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[7.050672] (-) TimerEvent: {}
+[7.065683] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[7.122096] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[7.150799] (-) TimerEvent: {}
+[7.179287] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[7.250969] (-) TimerEvent: {}
+[7.269535] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[7.351088] (-) TimerEvent: {}
+[7.374266] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[7.440217] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[7.451261] (-) TimerEvent: {}
+[7.511399] (my_robot_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/thiag/github_repositorios/aula_robotica_e_veiculos_autonomos_UFF/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[7.551408] (-) TimerEvent: {}
+[7.566559] (my_robot_description) CommandEnded: {'returncode': 0}
+[7.651537] (-) TimerEvent: {}
+[7.752444] (-) TimerEvent: {}
+[7.853224] (-) TimerEvent: {}
+[7.953959] (-) TimerEvent: {}
+[8.054798] (-) TimerEvent: {}
+[8.074413] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[8.081653] (-) EventReactorShutdown: {}
